@@ -16,8 +16,8 @@ jobs:
 
    - name: python install
      uses: actions/setup-python@v6
-     with: |
-      - python-version: ${{ matrix.version }}
+     with:
+      python-version: ${{ matrix.version }}
 
    - name: install packages
      run: |
